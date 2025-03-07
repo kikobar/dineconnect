@@ -2,7 +2,7 @@
 
 CONNECTION_STRING = "mongodb://user:pass@mongoserver:27017/database"
 DATABASE = "outlet"
-COLLECTION = "ticket"
+COLLECTION = "tickets"
 
 # DineConnect API parameters
 
