@@ -13,4 +13,5 @@ These Python scripts allow to extract records from the DineConnect API and post 
 * Copy the file `config-sample.py` to `config.py`.
 * Edit `config.py` with your credentials and defaults.
 * To extract the tickets records from the DineConnect API and post them to the Mongo database, run `python3 extract_tickets.py` and follow the instructions of the script.
+* To delete tickets from the Mongo database, run `python3 delte_tickets.py` and follow de instructions of the script.
 
