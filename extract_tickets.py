@@ -7,7 +7,7 @@ import base64
 
 def extract_tickets():
     from_date = str(input('From date [YYYY-MM-DD]: ') or "")
-    to_date = str(input('To date YYYY-MM-DD]: ') or "")
+    to_date = str(input('To date [YYYY-MM-DD]: ') or "")
     url = base_url + "api/Account/Authenticate/"
     payload = json.dumps({
         "tenancyName": api_tenancy_name,
